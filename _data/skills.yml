@@ -1,12 +1,11 @@
 languages:
   - item: Python
-  - item: Kotlin
+  - item: NodeJS
   - item: SQL
   - item: SPARQL
 
 libraries:
   - item: Pytorch
-  - item: Flax/Jax
   - item: Transformers
   - item: PEFT
   - item: scikit-learn
