@@ -1,4 +1,4 @@
-- name: Distillation Contrastive Decoding: Improving LLMs Reasoning with Contrastive Decoding and Distillation
+- name: 'Distillation Contrastive Decoding: Improving LLMs Reasoning with Contrastive Decoding and Distillation'
   url: https://arxiv.org/abs/2402.14874
   description: <i>arXiv preprint:2402.14874v2</i>, 2024
   authors: Phuc Phan*, <b>Hieu Tran*</b>, Long Phan
