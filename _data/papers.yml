@@ -1,3 +1,10 @@
+- name: Distillation Contrastive Decoding: Improving LLMs Reasoning with Contrastive Decoding and Distillation
+  url: https://arxiv.org/abs/2402.14874
+  description: <i>arXiv preprint:2402.14874v2</i>, 2024
+  authors: Phuc Phan*, <b>Hieu Tran*</b>, Long Phan
+  used:
+    - thing: <a class="underline-link" href="https://github.com/pphuc25/distil-cd" target="_blank">CODE</a>
+    
 - name: Enriching Biomedical Knowledge for Low-resource Language Through Translation
   url: https://aclanthology.org/2023.eacl-main.228/
   description: <i>EACL</i>, 2023
