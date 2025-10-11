@@ -1,22 +1,36 @@
 .other-projects {
   .project {
-    max-width: 600px;
-    margin-bottom: 50px;
+    max-width: 700px;
+    margin-bottom: 40px;
     &__name {
-      margin-bottom: 10px;
+      margin-bottom: 12px;
+      font-size: 1.1rem;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      hyphens: auto;
+      max-width: 100%;
+      a {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        display: inline;
+        max-width: 100%;
+        white-space: normal !important;
+      }
     }
     p {
-      font-size: 0.9rem;
+      font-size: 1rem;
       margin-bottom: 20px;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
     }
     &__used {
       &__item {
         display: inline-block;
         margin: 3px 3px 3px 0;
         font-family: 'Inconsolata', monospace;
-        font-size: 0.75rem;
+        font-size: 0.85rem;
         font-weight: 700;
-        padding: 2px 7px;
+        padding: 3px 8px;
         border-radius: 3px;
         color: $blue;
         border: 1px solid $blue;

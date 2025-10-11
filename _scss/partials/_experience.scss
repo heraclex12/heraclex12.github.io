@@ -1,9 +1,9 @@
 .experience {
   .jobs {
-    margin-bottom: 100px;
+    margin-bottom: 70px;
   }
   .job {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     .time-place {
       display: flex;
       justify-content: space-between;
@@ -13,17 +13,18 @@
     }
     &__company {
       font-weight: 700;
+      font-size: 1.05rem;
     }
     &__time {
-      font-size: 0.9rem;
+      font-size: 0.95rem;
       font-family: 'Inconsolata', monospace;
       @include mobile {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
       }
     }
   }
   .arrow-link {
-    font-size: 1.25rem;
+    font-size: 1.3rem;
     &:after {
       width: 20px;
       height: 20px;

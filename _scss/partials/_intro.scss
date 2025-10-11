@@ -1,60 +1,100 @@
 .intro {
-  padding: 120px 100px;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  max-width: 1440px;
-  margin: 0 auto;
-  @include weird-medium {
-    padding: 120px 70px;
+  padding: 60px 170px;
+  background-color: $white;
+  border-bottom: 1px solid #e0e0e0;
+  @include thirteen {
+    padding: 60px 100px;
   }
-  @include phablet {
-    padding: 120px 50px;
+  @include desktop {
+    padding: 50px 50px;
+  }
+  @include tablet {
+    padding: 45px 50px;
   }
   @include mobile {
-    padding: 70px 50px;
+    padding: 40px 35px;
   }
 
-  &__hello, &__tagline {
-    font-size: 2.5rem;
+  &__content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    @include tablet {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 30px;
+    }
+  }
+
+  &__left {
+    flex: 1;
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+    @include tablet {
+      align-items: flex-start;
+      width: 100%;
+    }
+  }
+
+  &__name {
+    font-size: 2.75rem;
+    font-weight: 700;
+    margin: 0 0 8px 0;
+    color: $black;
+    line-height: 1.2;
     @include desktop {
-      font-size: 2.25rem;
+      font-size: 2.5rem;
     }
     @include tablet {
-      font-size: 2rem;
+      font-size: 2.25rem;
     }
     @include phablet {
-      font-size: 1.75rem;
+      font-size: 2rem;
+    }
+    @include mobile {
+      font-size: 1.85rem;
     }
     @include small-mobile {
-      font-size: 1.5rem;
+      font-size: 1.65rem;
     }
-    @include tiny-mobile {
-      font-size: 1.4rem;
-    }
+    
     .emoji {
-      width: 40px;
-      height: 40px;
+      display: inline-block;
+      width: 45px;
+      height: 45px;
+      vertical-align: middle;
+      margin-left: 10px;
       @include desktop {
+        width: 42px;
+        height: 42px;
+      }
+      @include tablet {
+        width: 38px;
+        height: 38px;
+      }
+      @include phablet {
         width: 35px;
         height: 35px;
       }
-      @include tablet {
-        width: 30px;
-        height: 30px;
-      }
-      @include small-mobile {
-        width: 25px;
-        height: 25px;
+      @include mobile {
+        width: 32px;
+        height: 32px;
       }
     }
-  }
-  &__hello {
-    font-weight: 300;
+    
     .wave-hand {
       background-image: url('../img/emojis/wave.png');
-      margin-left: 10px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
       cursor: pointer;
 
       &.animated {
@@ -90,45 +130,136 @@
       }
     }
   }
-  &__tagline {
-    font-weight: 300;
-    max-width: 700px;
-    .name {
-      font-weight: 700;
-    }
-    .technologist {
-      background-image: url('../img/emojis/technologist.png');
-    }
-  }
-  &__contact {
+
+  &__title {
     font-size: 1.25rem;
     font-weight: 400;
-    @include phablet {
-      font-size: 1rem;
+    color: $dark-grey;
+    margin: 0;
+    line-height: 1.5;
+    @include tablet {
+      font-size: 1.15rem;
     }
+    @include mobile {
+      font-size: 1.05rem;
+    }
+  }
+
+  &__contact-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    @include phablet {
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+  }
+
+  &__contact-label {
+    font-size: 1.15rem;
+    font-weight: 400;
+    color: $dark-grey;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    @include mobile {
+      font-size: 1.05rem;
+    }
+    
     .emoji {
+      display: inline-block;
       &.pointer {
         background-image: url('../img/emojis/pointright.png');
-        width: 30px;
-        height: 30px;
-        margin: 0 5px;
-        vertical-align: text-bottom;
-        @include phablet {
-          width: 25px;
-          height: 25px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 26px;
+        height: 26px;
+        margin-left: 5px;
+        vertical-align: middle;
+        @include mobile {
+          width: 22px;
+          height: 22px;
         }
       }
     }
-    .highlight-link {
-      @include transition;
-      font-weight: 400;
-      text-decoration: none;
-      display: inline-block;
-      padding: 2px 3px;
-      text-decoration: none;
-      box-shadow: inset 0 -3px 0 $blue;
+  }
+
+  &__email-button {
+    @include transition;
+    display: inline-block;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: $blue;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid $blue;
+    border-radius: 6px;
+    white-space: nowrap;
+    @include mobile {
+      font-size: 1rem;
+      padding: 8px 16px;
+    }
+    &:hover {
+      background-color: $blue;
+      color: $white;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+    }
+  }
+
+  &__social {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    @include mobile {
+      gap: 15px;
+    }
+  }
+
+  &__social-link {
+    @include transition;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    opacity: 0.7;
+    @include mobile {
+      width: 24px;
+      height: 24px;
+    }
+    &:hover {
+      opacity: 1;
+      transform: translateY(-2px);
+    }
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+// Night mode styles
+body.night {
+  .intro {
+    background-color: $night;
+    border-bottom-color: #2a2f3d;
+    
+    .intro__name {
+      color: $off-white;
+    }
+    
+    .intro__title,
+    .intro__contact-label {
+      color: $slate;
+    }
+    
+    .intro__email-button {
+      color: $blue;
+      border-color: $blue;
       &:hover {
-        box-shadow: inset 0 -33px 0 0 $blue;
+        background-color: $blue;
         color: $white;
       }
     }

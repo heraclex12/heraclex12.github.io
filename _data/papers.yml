@@ -1,3 +1,8 @@
+- name: 'VietMix: A Naturally Occurring Vietnamese-English Code-Mixed Corpus with Iterative Augmentation for MT'
+  url: https://arxiv.org/pdf/2505.24472
+  description: <i>Submitted to EACL 2025</i>
+  authors: <b>Hieu Tran*</b>, Phuong-Anh Nguyen-Le*, Huy Nghiem, Quang-Nhan Nguyen, Wei Ai, Marine Carpuat
+
 - name: 'Distillation Contrastive Decoding: Improving LLMs Reasoning with Contrastive Decoding and Distillation'
   url: https://arxiv.org/abs/2402.14874
   description: <i>arXiv preprint:2402.14874v2</i>, 2024
@@ -79,10 +84,3 @@
   authors: <b>Hieu Tran</b>, Cuong V Dinh, Quang Pham, Binh T. Nguyen
   used:
     - thing: <a class="underline-link" href="https://github.com/heraclex12/vietpunc" target="_blank">CODE</a>
-
-- name: Leveraging Transfer Learning for Reliable Intelligence Identification on Vietnamese SNSs (ReINTEL)
-  url: https://arxiv.org/abs/2012.07557
-  description: <i>arXiv preprint arXiv:2012.07557</i>, 2020
-  authors: <b>Trung-Hieu Tran</b>, Long Phan, Truong-Son Nguyen, Tien-Huy Nguyen
-  used:
-    - thing: <a class="underline-link" href="https://github.com/heraclex12/VLSP2020-Fake-News-Detection" target="_blank">CODE</a>

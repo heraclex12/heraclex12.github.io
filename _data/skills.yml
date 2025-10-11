@@ -1,8 +1,8 @@
 languages:
   - item: Python
+  - item: Typescript
   - item: NodeJS
   - item: SQL
-  - item: SPARQL
 
 libraries:
   - item: Pytorch
@@ -12,7 +12,6 @@ libraries:
 
 tools:
   - item: Google Cloud Platform
-  - item: Linux
   - item: Git
   - item: Docker
   - item: Kubernetes
@@ -21,5 +20,5 @@ tools:
 others:
   - item: Machine Learning
   - item: Natural Language Processing
-  - item: Generative AI
+  - item: Generative AI | LLM
   - item: Research
