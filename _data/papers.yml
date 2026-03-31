@@ -1,6 +1,11 @@
+- name: 'Beyond Binary Attributes: Aspect-Aware Activation Steering for Authorship Style Transfer'
+  url: 
+  description: <i>Submitted to ACL 2026</i>
+  authors: <b>Hieu Tran*</b>, Calvin Bao, Marine Carpuat
+
 - name: 'VietMix: A Naturally Occurring Vietnamese-English Code-Mixed Corpus with Iterative Augmentation for MT'
-  url: https://arxiv.org/pdf/2505.24472
-  description: <i>Submitted to EACL 2025</i>
+  url: https://aclanthology.org/2026.eacl-long.342/
+  description: <i>EACL 2026</i>
   authors: <b>Hieu Tran*</b>, Phuong-Anh Nguyen-Le*, Huy Nghiem, Quang-Nhan Nguyen, Wei Ai, Marine Carpuat
 
 - name: 'Distillation Contrastive Decoding: Improving LLMs Reasoning with Contrastive Decoding and Distillation'
