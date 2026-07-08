@@ -5,7 +5,7 @@
 
 - name: 'VietMix: A Naturally Occurring Vietnamese-English Code-Mixed Corpus with Iterative Augmentation for MT'
   url: https://aclanthology.org/2026.eacl-long.342/
-  description: <i>EACL 2026</i>
+  description: <i>EACL 2026 (Oral)</i>
   authors: <b>Hieu Tran*</b>, Phuong-Anh Nguyen-Le*, Huy Nghiem, Quang-Nhan Nguyen, Wei Ai, Marine Carpuat
 
 - name: 'Distillation Contrastive Decoding: Improving LLMs Reasoning with Contrastive Decoding and Distillation'
