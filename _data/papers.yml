@@ -1,6 +1,6 @@
-- name: 'Beyond Binary Attributes: Aspect-Aware Activation Steering for Authorship Style Transfer'
+- name: 'Can Activation Steering Capture Multidimensional Authorship Style?'
   url: 
-  description: <i>Submitted to ACL 2026</i>
+  description: <i>EMNLP 2026</i>
   authors: <b>Hieu Tran*</b>, Calvin Bao, Marine Carpuat
 
 - name: 'VietMix: A Naturally Occurring Vietnamese-English Code-Mixed Corpus with Iterative Augmentation for MT'
