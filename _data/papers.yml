@@ -3,6 +3,11 @@
   description: <i>EMNLP 2026</i>
   authors: <b>Hieu Tran</b>, Calvin Bao, Marine Carpuat
 
+- name: 'Plausible Biomolecular Structure Prediction via Physics-informed Reinforcement Learning'
+  url: 
+  description: <i>NeurIPS 2026</i>
+  authors: Tai Dang, <b>Hieu Tran</b>, Long-Hung Pham, Sang T. Truong, Edward A Pham, Jeffrey S. Glenn, Thang Luong 
+
 - name: 'VietMix: A Naturally Occurring Vietnamese-English Code-Mixed Corpus with Iterative Augmentation for MT'
   url: https://aclanthology.org/2026.eacl-long.342/
   description: <i>EACL</i>, 2026 (Oral)
