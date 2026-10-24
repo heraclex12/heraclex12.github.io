@@ -1,15 +1,15 @@
 - name: 'What Does Steering Change? Decoding with Base-Relative Steering Evidence'
-  url: 
+  url: https://openreview.net/forum?id=6jKPrhlbT7
   description: <i>Preprint</i>
   authors: <b>Hieu Tran</b>, Sy-Tuyen Ho, Marine Carpuat
 
 - name: 'Can Activation Steering Capture Multidimensional Authorship Style?'
-  url: 
+  url: https://arxiv.org/abs/2609.04792
   description: <i>EMNLP 2026</i>
   authors: <b>Hieu Tran</b>, Calvin Bao, Marine Carpuat
 
 - name: 'Plausible Biomolecular Structure Prediction via Physics-informed Reinforcement Learning'
-  url: 
+  url:  https://pifold.newturing.ai/
   description: <i>NeurIPS 2026</i>
   authors: Tai Dang, <b>Hieu Tran</b>, Long-Hung Pham, Sang T. Truong, Edward A Pham, Jeffrey S. Glenn, Thang Luong 
 
