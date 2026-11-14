@@ -1,18 +1,18 @@
 {
-  "name": "brittanychiang.com",
+  "name": "heraclex12.github.io",
   "version": "0.0.1",
   "description": "NLP enthusiast focused on language modeling and machine translation",
   "repository": {
     "type": "git",
     "url": "https://github.com/heraclex12/heraclex12.github.io"
   },
-  "homepage": "https://github.com/bchiang7/bchiang7.github.io",
+  "homepage": "https://github.com/heraclex12/heraclex12.github.io",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp serve --watch",
     "build": "gulp build"
   },
-  "author": "Brittany Chiang",
+  "author": "Hieu Tran",
   "license": "ISC",
   "devDependencies": {
     "@nuscout/eslint-config": "^0.2.1",
